@@ -1,0 +1,11 @@
+[project]
+name = "micro-lending-pools"
+description = "Micro-lending pools for developing countries with reputation-based collateral"
+authors = ["IsaacEmeka01 <ossaiemeka80@gmail.com>"]
+telemetry = true
+cache_dir = "./.clarinet"
+
+[contracts.micro-lending-pools]
+path = "contracts/micro-lending-pools.clar"
+clarity_version = 2
+epoch = 2.1
